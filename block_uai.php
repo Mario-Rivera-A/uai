@@ -163,27 +163,6 @@ class block_uai extends block_base {
         }
 
 
-
-        /*if($role !== false ||has_capability("mod/emarking:printordersview", $PAGE->context)) {
-            $root["printorders"] = array();
-            $root["printorders"]["string"] = get_string("printorders", "mod_emarking");
-            $root["printorders"]["url"] =	 new moodle_url("/mod/emarking/print/printorders.php", array("category"=>$categoryid));
-            $root["printorders"]["icon"] =	 "t/print";
-
-            $root["costreport"] = array();
-            $root["costreport"]["string"] = get_string("costreport", "mod_emarking");
-            $root["costreport"]["url"] =	new moodle_url("/mod/emarking/reports/costcenter.php", array("category"=>$categoryid));
-            $root["costreport"]["icon"] =	"t/ranges";
-
-            $root["costsettings"] = array();
-            $root["costsettings"]["string"] = get_string("costsettings", "mod_emarking");
-            $root["costsettings"]["url"] =	  new moodle_url("/mod/emarking/reports/costconfig.php", array("category"=>$categoryid));
-            $root["costsettings"]["icon"] =	  "a/setting";
-
-        }else{
-            return false;
-        }*/
-
         return $root;
     }
     
